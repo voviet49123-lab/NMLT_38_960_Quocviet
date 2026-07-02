@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main(){
+
+    short t,l,h;
+    float tb;
+    t = 7;
+    l = 8;
+    h = 10;
+    tb = 1.0*(t+l+h)/3;
+    printf("Toan: %d Ly: %d Hoa: %d \n", t,l,h);
+    printf("Diem Trung Binh: %f\n", tb);
+    return 0;
+}
