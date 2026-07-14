@@ -4,7 +4,7 @@ int main(){
 
     char mssv[] = "PS49960";
     char HoTen[] = "Vo Nguyen Quoc Viet";
-    char t,l,h;
+    int t,l,h;
     float tb;
     t = 9;
     l = 7;
