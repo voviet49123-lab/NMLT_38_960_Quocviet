@@ -8,6 +8,7 @@ int main(){
     printf("Nhap diem Hoa: ");
     scanf("%d", &Hoa);
     float DiemTB;
-    printf("Diem trung binh cua ban la %.2f", 1.0*(Toan*3+Ly*2+Hoa));
+    DiemTB = (float)(Toan*3+Ly*2+Hoa)/6;
+    printf("Diem trung binh cua ban la %.2f", DiemTB);  //1.0*(Toan*3+Ly*2+Hoa)/6);
     return 0;
 }
